@@ -18,7 +18,7 @@ function ChatGptInterface() {
     setLoading(true);
     const configuration = new Configuration({
       organization: 'org-YqgkUXIlLCzIWw5EoCsMjM16',
-      apiKey: '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',
+      apiKey: '',
     });
     const openai = new OpenAIApi(configuration);
 
